@@ -1,6 +1,6 @@
 /*
 Run with command:- 
-g++ Assignment2_1_20CS10029_20CS30008_20CS30042_20CS30033.cpp -o ourshell -lreadline ; ./ourshell
+g++ shell.cpp -o shell -lreadline ; ./shell
 */
 
 #include <dirent.h>

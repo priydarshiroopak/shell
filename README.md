@@ -32,3 +32,28 @@ Helps to delete a file that has been locked by a process. The command takes a fi
 Usage: `delep <filepath>`
 
 Note: For "sb" command, the `squashbug.heuristic.txt` file explains the heuristic used to detect the malware process.
+
+## Usage
+
+To run the shell, run the following commands in the terminal:
+
+1. Install readline library:
+
+```bash
+    sudo apt-get install libreadline-dev
+```
+
+2. Compile and run the shell:
+
+```bash
+    g++ shell.cpp -o shell -lreadline
+    ./shell
+```
+
+
+Or, simply use the Makefile:
+
+```bash
+    sudo make
+    ./shell
+```
